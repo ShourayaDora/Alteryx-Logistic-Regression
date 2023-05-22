@@ -1,0 +1,707 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\skd41\Downloads\archive (8)\heart.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>heart.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="age" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="sex" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="cp" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="trestbps" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="chol" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="fbs" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="restecg" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="thalach" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="exang" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="oldpeak" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="slope" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="ca" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="thal" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+            <Field name="target" size="254" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="age" selected="True" />
+            <Field field="sex" selected="True" />
+            <Field field="cp" selected="True" />
+            <Field field="trestbps" selected="True" />
+            <Field field="chol" selected="True" />
+            <Field field="fbs" selected="True" />
+            <Field field="restecg" selected="True" />
+            <Field field="thalach" selected="True" />
+            <Field field="exang" selected="True" />
+            <Field field="oldpeak" selected="True" />
+            <Field field="slope" selected="True" />
+            <Field field="ca" selected="True" />
+            <Field field="thal" selected="True" />
+            <Field field="target" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="age" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="sex" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="cp" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="trestbps" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="chol" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Int16" />
+            <Field name="fbs" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="restecg" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="thalach" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="exang" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="oldpeak" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Double" />
+            <Field name="slope" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="ca" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="thal" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+            <Field name="target" source="File: C:\Users\skd41\Downloads\archive (8)\heart.csv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="426" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\users\skd41\desktop\logistic_regression.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript>#################################
+from ayx import Package
+import numpy as np
+import pandas as pd
+from ayx import Alteryx
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+
+#################################
+df=Alteryx.read('#1')
+
+
+#################################
+X=np.array(df.iloc[:,:-1])
+Y=np.array(df.iloc[:,-1])
+
+
+#################################
+X_train,X_test,Y_train,Y_test=train_test_split(X,Y,train_size=0.8,random_state=2023)
+
+
+#################################
+Train=pd.DataFrame(np.concatenate((X_train,Y_train.reshape((-1,1))),axis=1))
+Test=pd.DataFrame(np.concatenate((X_test,Y_test.reshape((-1,1))),axis=1))
+                   
+
+
+#################################
+Alteryx.write(Train,1)
+Alteryx.write(Test,1)</productionModeScript>
+          <Port>51541</Port>
+          <JupyterGuidDir>781234ed7d24e3070094db23f069a7d2</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>2022.3.1.486</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","contents_keyword":"Alteryx.help()","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":1,"metadata":{"ayx":{"cell_css":"border: 1px solid #58a; margin: 2px;","contents_keyword":"installPackages","label":"deps"}},"outputs":[],"source":["from ayx import Package\n","import numpy as np\n","import pandas as pd\n","from ayx import Alteryx\n","from sklearn.model_selection import train_test_split\n","from sklearn.preprocessing import StandardScaler"]},{"cell_type":"code","execution_count":2,"metadata":{},"outputs":[],"source":["df=Alteryx.read('#1')"]},{"cell_type":"code","execution_count":3,"metadata":{},"outputs":[],"source":["X=np.array(df.iloc[:,:-1])\n","Y=np.array(df.iloc[:,-1])"]},{"cell_type":"code","execution_count":4,"metadata":{},"outputs":[],"source":["X_train,X_test,Y_train,Y_test=train_test_split(X,Y,train_size=0.8,random_state=2023)"]},{"cell_type":"code","execution_count":5,"metadata":{},"outputs":[],"source":["Train=pd.DataFrame(np.concatenate((X_train,Y_train.reshape((-1,1))),axis=1))\n","Test=pd.DataFrame(np.concatenate((X_test,Y_test.reshape((-1,1))),axis=1))\n","                   "]},{"cell_type":"code","execution_count":6,"metadata":{},"outputs":[],"source":["Alteryx.write(Train,1)\n","Alteryx.write(Test,2)"]}],"metadata":{"kernelspec":{"display_name":"designerbasetools_venv","language":"python","name":"designerbasetools_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.5"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output1">
+          <RecordInfo>
+            <Field name="0" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="1" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="2" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="3" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="4" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="5" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="6" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="7" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="8" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="9" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="10" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="11" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="12" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="13" size="1073741823" source="PythonTool:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output2">
+          <RecordInfo>
+            <Field name="0" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="1" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="2" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="3" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="4" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="5" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="6" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="7" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="8" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="9" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="10" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="11" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="12" size="1073741823" source="PythonTool:" type="V_WString" />
+            <Field name="13" size="1073741823" source="PythonTool:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="Logistic_Regression">
+        <Position x="606" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Logistic Regression model</Value>
+          <Value name="Y Var">13</Value>
+          <Value name="X Vars">0,1,2,3,4,5,6,7,8,9,10,11,12</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="standardize_pred">False</Value>
+          <Value name="internal_cv">False</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="set_seed_internal_cv">False</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="Link">logit</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="set_seed_external_cv">False</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Logistic Regression model</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Interactive Report">
+          <RecordInfo>
+            <Field name="Text" size="1073741823" source="Report:Text:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings>
+        <Position x="786" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target.level" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="predictions">
+          <RecordInfo>
+            <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Logistic Regression model" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="error_measures">
+          <RecordInfo>
+            <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Accuracy" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_0" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_1" source="R-DATA:" type="Double" />
+            <Field name="F1" source="R-DATA:" type="Double" />
+            <Field name="AUC" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Layout" size="1073741823" source="Report:Layout:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Model Comparison.yxmc" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1134" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\skd41\AppData\Local\Temp\Engine_25040_92c6566174602e4fabfd5d1c47145876_\Engine_25040_efa4f72cf634354b82752b47263832f3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1134" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\skd41\AppData\Local\Temp\Engine_25040_92c6566174602e4fabfd5d1c47145876_\Engine_25040_9a21f183d71ec44dab5c10b7e2c04df8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1134" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\skd41\AppData\Local\Temp\Engine_25040_92c6566174602e4fabfd5d1c47145876_\Engine_25040_18ec4d067439884a985ead443f1635ad~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="414" width="132" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>IMPORTING CSV FILE</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="270" width="160" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CONVERTING DATA INTO NUMERIC FORMAT</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="402" y="402" width="132" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>STANDARDIZING DATA AND SPLITTING INTO TRAIN/TEST SET</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="522" y="138" width="132" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CREATING LOGISTIC REGRESSION MODEL</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="54" width="396" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>PREDICTING PRESENCE OF HEART DISEASE USING LOGISTIC REGRESSION</Text>
+          <Font name="Arial Rounded MT Bold" size="12" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="128" b="192" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="390" width="132" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>PREDICTING VALUES USING MODEL</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1206" y="342" width="124" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CLICK TO VIEW DETAILED REPORT</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="1134" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Layout</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="595" Height="841" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\skd41\AppData\Local\Temp\Engine_25040_92c6566174602e4fabfd5d1c47145876_\Engine_25040_1d80a93caf2a884daf1149ba3b25d436~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output1" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output2" />
+      <Destination ToolID="43" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="43" Connection="Models" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="error_measures" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Report" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="predictions" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Report" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Logistic_Regression</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="eea54c89-336d-4397-9194-5ce000a43a7d" />
+      <Telemetry>
+        <PreviousWorkflowId value="e5d0b947-d9b0-44d9-acc3-d862ab1621e2" />
+        <OriginWorkflowId value="de73bc23-5842-49c7-a9dd-2ce1e8696688" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (29)</Name>
+          <ToolId value="29" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="43" Selected="True" />
+        <Tool ToolId="44" Selected="False" />
+        <Tool ToolId="45" Selected="False" />
+        <Tool ToolId="46" Selected="False" />
+        <Tool ToolId="55" Selected="True" />
+        <Tool ToolId="57" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
